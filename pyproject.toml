@@ -1,0 +1,12 @@
+[project]
+name = "mcp-openrouter-base-url"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "load-dotenv>=0.1.0",
+    "mcp[cli]>=1.7.1",
+    "nest-asyncio>=1.6.0",
+    "openai>=1.77.0",
+]

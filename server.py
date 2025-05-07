@@ -13,10 +13,8 @@ mcp = FastMCP(
 @mcp.tool()
 def get_knowledge_base() -> str:
     """
-    Answers questions about company policies and procedures such as vacation, remote work, expenses, software, and security protocols by querying the knowledge base.
-
-    Args:
-        companyname (str): the name of our company
+    Answers questions about company policies and procedures such as vacation, 
+    remote work, expenses, software, and security protocols by querying the knowledge base.
 
     Returns:
         A formatted string containing all Q&A pairs from the knowledge base.

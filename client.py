@@ -31,10 +31,10 @@ openai_client = AsyncOpenAI(
 # model = "meta-llama/llama-3.3-70b-instruct"
 # model = "nvidia/llama-3.1-nemotron-70b-instruct"
 # model = "qwen/qwen-2.5-72b-instruct"
-# model = "openai/gpt-4o-mini"
+model = "openai/gpt-4o-mini"
 
 # free
-model = "mistralai/mistral-7b-instruct:free"
+# model = "mistralai/mistral-7b-instruct:free"
 
 stdio = None
 write = None

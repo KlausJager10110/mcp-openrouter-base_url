@@ -84,4 +84,6 @@ def generate_welcome_message(user_name: str, context: str = "general") -> str:
 
 # Run the server
 if __name__ == "__main__":
+    print("Server is running.")
     mcp.run(transport="stdio")
+
